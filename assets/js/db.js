@@ -5,13 +5,13 @@ new Vue({
             {
                 img: './images/logos/google.png',
                 title: 'google',
-                Url: 'http://www.google.com',
+                url: 'http://www.google.com',
                 desc: '全球最大的搜索引擎'
             },
             {
                 img: './images/logos/baidu.png',
                 title: '百度',
-                Url: 'http://www.baidu.com',
+                url: 'http://www.baidu.com',
                 desc: '中国占有率最大的搜索引擎'
             }
         ]
