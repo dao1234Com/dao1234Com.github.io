@@ -5,13 +5,13 @@ new Vue({
             {
                 img: '../assets/images/logos/google.png',
                 title: 'google',
-                url: 'http://www.google.com',
+                url: 'https://www.google.com',
                 desc: '全球最大的搜索引擎'
             },
             {
                 img: '../assets/images/logos/youtube.png',
                 title: 'Youtube',
-                url: 'http://www.youtube.com',
+                url: 'https://www.youtube.com',
                 desc: '全球最大的视频网站'
             },
             {
