@@ -1,20 +1,25 @@
 new Vue({
-    el: "#常用推荐",
+    el: "#changyongtujian",
     data: {
         items: [
             {
-                img: './images/logos/google.png',
+                img: '../assets/images/logos/google.png',
                 title: 'google',
                 url: 'http://www.google.com',
                 desc: '全球最大的搜索引擎'
             },
             {
-                img: './images/logos/baidu.png',
-                title: '百度',
-                url: 'http://www.baidu.com',
-                desc: '中国占有率最大的搜索引擎'
+                img: '../assets/images/logos/youtube.png',
+                title: 'Youtube',
+                url: 'http://www.youtube.com',
+                desc: '全球最大的视频网站'
             }
         ]
+    },
+    methods:{
+        navto(url){
+            window.open(url,'_blank')
+        }
     }
 });
 new Vue({
