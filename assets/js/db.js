@@ -13,6 +13,12 @@ new Vue({
                 title: 'Youtube',
                 url: 'http://www.youtube.com',
                 desc: '全球最大的视频网站'
+            },
+            {
+                img: '../assets/images/logos/producthunt.png',
+                title: 'Producthunt',
+                url: 'https://www.producthunt.com/',
+                desc: '发现新鲜有趣的产品'
             }
         ]
     },
